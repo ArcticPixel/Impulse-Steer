@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Roboto, Lucida Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif, Arial;
+}
+
+div {
+width: 90%;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1 {
+
+font-weight:normal;
+font-style:normal;
+    font-family: Roboto, Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif, Arial;
+
+            display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+h2 {
+
+font-weight:normal;
+font-style:normal;
+font-family: Roboto, Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif, Arial;
+font-size: 30px;
+        margin-left: 10%;
+    margin-right: 10%;
+    color: #ffffff;
+}
+h3 {
+
+font-weight:normal;
+font-style:normal;
+font-family: Roboto, Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif, Arial;
+font-size: 20px;
+        margin-left: 10%;
+    margin-right: 10%;
+    color: #ffffff;
+}
+
+/* Add a black background color to the top navigation */
+
+
+.top{
+    width: 100%;
+  background-color: #000000;
+  overflow: hidden;
+}
+a {
+
+
+  color: #ffffff;
+
+
+  text-decoration: none;
+  font-size: 20px;
+    background-color: #000000;
+
+font-family: Roboto, Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif, Arial;
+
+}
+.img1{
+    width: 70%;
+
+}
+
+
+p{
+font-family: Roboto, Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif, Arial;
+      font-size:20px;
+    color: #ffffff;
+}
+ul {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #ffffff;
+}
+body {
+  background-image: url("/pictures/sunpeek.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% auto;
+
+}
+.foot{
+    font-size: 10px;
+}
+
