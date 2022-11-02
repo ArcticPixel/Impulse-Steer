@@ -1,94 +1,66 @@
-@font-face {
-    font-family: Roboto, Lucida Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif, Arial;
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("img/bg.png");
+    background-size: 100%;
+    background-position: center;
 }
-
-div {
-width: 90%;
-        display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-h1 {
-
-font-weight:normal;
-font-style:normal;
-    font-family: Roboto, Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif, Arial;
-
-            display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 10px;
+.toptext1{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 5%;
+    width: 80%;
     font-size: 40px;
-    color: #ffffff;
-    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #8ea4ff;
+    line-height: 0.5;
 }
-h2 {
-
-font-weight:normal;
-font-style:normal;
-font-family: Roboto, Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif, Arial;
-font-size: 30px;
-        margin-left: 10%;
-    margin-right: 10%;
-    color: #ffffff;
+.toptext2{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 5%;
+    width: 80%;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #8ea4ff;
+    line-height: 1;
 }
-h3 {
-
-font-weight:normal;
-font-style:normal;
-font-family: Roboto, Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif, Arial;
-font-size: 20px;
-        margin-left: 10%;
-    margin-right: 10%;
-    color: #ffffff;
+.info1{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 5%;
+    width: 80%;
+    font-size: 25px;
+    line-height: 0.5;
+}
+.info2{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 7%;
+    width: 80%;
+    font-size: 20px;
+    line-height: 0.5;
 }
 
-/* Add a black background color to the top navigation */
-
-
-.top{
+.info3{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 9%;
+    width: 80%;
+    font-size: 15px;
+    line-height: 0.5;
+}
+footer {
+    background-color: #2f3b5b;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    margin: 0;
     width: 100%;
-  background-color: #000000;
-  overflow: hidden;
-}
-a {
-
-
-  color: #ffffff;
-
-
-  text-decoration: none;
-  font-size: 20px;
-    background-color: #000000;
-
-font-family: Roboto, Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif, Arial;
-
-}
-.img1{
-    width: 70%;
-
-}
-
-
-p{
-font-family: Roboto, Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif, Arial;
-      font-size:20px;
-    color: #ffffff;
-}
-ul {
-    margin-left: 10%;
-    margin-right: 10%;
-    color: #ffffff;
-}
-body {
-  background-image: url("/pictures/sunpeek.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% auto;
-
-}
-.foot{
     font-size: 10px;
+    position: fixed;
+    bottom: 0;
+}
+footer.p {
+    background-color: #2f3b5b;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 10%;
 }
 
